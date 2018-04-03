@@ -1,0 +1,43 @@
+#login-form {
+  width: 100%;
+  max-width: 500px;
+  margin: 10% auto;
+}
+
+#login-form .form-control:not(:first-child) {
+  margin-top: 5px;
+}
+
+#login-btn {
+  margin-top: 10px;
+  width: 100%;
+}
+
+#add-new {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+#add-new .form-control:not(:first-child) {
+  margin-top: 5px;
+}
+
+#training-table {
+  width: 100%;
+}
+#training-table thead tr th {
+  background: #f5f4f4;
+  padding: 10px 5px;
+}
+#training-table thead tr th:not(:first-child),
+#training-table tbody tr td:not(:first-child) {
+  border-left: 1px solid #ccc;
+}
+#training-table tbody tr td {
+  padding: 10px 5px;
+}
+
+#search-wrapper {
+  max-width: 300px;
+}
+
